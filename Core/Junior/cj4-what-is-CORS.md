@@ -1,4 +1,8 @@
-### What is CORS?
-**CORS (Cross-Origin Resource Sharing)** - is a rule that forbids the exchange of data between different resources unless otherwise specified. For example, *mywebsite.com* can't request data from *anotherwebsite.com*. The result will be - CORS forbidden. To change this behavior, *anotherwebsite.com* should send to *mywebsite.com* in its response an *Access-Control-Allow-Origin* HEADER parameter set to \* (resource can be accessed by all hosts) or *mywebsite.com* (resource can be accessed by *mywebsite.com*).
+### Що таке Cross-Origin Resource Sharing (CORS)? Як усунути проблеми з CORS?
 
-> Each request has an *Origin* parameter in its header. So when the Origin of the server and the Origin of the request are the same, CORS is not activated. When *mywebsite.com* sends a request to the server, the request will contain the *Origin: mywebsite.com* parameter.
+**CORS (Cross-Origin Resource Sharing)** - це набір правил, які забороняють поширення інформації між різними джерелами.
+
+Якщо сайт *jeans.com* намагається отримати інформацію від сервера за адресою *infoaboutjeans.com*, то *CORS* блокує такий запит. Щоб уникнути цієї проблеми, ресурс *infoaboutjeans.com* повинен в хедерах відповіді додати атрибут *Cross-Origin-Resource-Sharing* зі значенням *(\*)* - це означає, що всі ресурси можуть отримувати інформацію з цього сервера. Або можна вказати значення *jeans.com* - це означає, що лише *jeans.com* може отримувати інформацію з цього сервера.
+
+> Як *CORS* визначає, що запит прийшов з іншого домену?
+> Кожен запит має параметр *Origin* в своєму хедері. Якщо запит приходить від *jeans.com*, то параметр *Origin* буде містити *jeans.com*. CORS порівнює значення параметра *Origin* запиту зі своїм хостом.

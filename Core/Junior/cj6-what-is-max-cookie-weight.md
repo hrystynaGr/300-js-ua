@@ -1,2 +1,2 @@
-### What is the max amount of data a cookie can store?
-It is 4096 bytes or *4.096 ~ 4kb* (for Chrome).
+### Який максимальний розмір cookie?
+Максимальний розмір куки-файлу у Хромі становить 4096 байтів, приблизно 4 кілобайти.
