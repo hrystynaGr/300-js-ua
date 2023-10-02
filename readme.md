@@ -1,8 +1,4 @@
 Репозиторій містить відповіді на наступні питання: 
-Now modify the text you have generated in the following way. Starting from the question 12. You will wrap the question into square brakets, right after that you will put the question name in the parentesis, using - inatead of each space and using lowercase letter instead of uppercase letters, and using - insted of any special characters. Also putting number of the question + '-' before text and .md after.
-For example:
-instead this line: 53. What is the CSS box model?
-you should create: 53. [What is the CSS box model?](53-what-is-the-css-box-model.md]
 # 300-js-en
 ## Junior
 #### General:
