@@ -1,2 +1,2 @@
 ### What is the difference between front-end JS and back-end JS?
-Front-end *JavaScript* is interpreted by the browser's built-in engine (*V8* for Chrome, *SpiderMonkey* for Firefox), while back-end JavaScript* needs to use enviroment like *Node.js* to be interpreted.
+Фронтенд *JavaScript* інтерпритується вбудованим механізмом у браузері (*V8* для Chrome, *SpiderMonkey* для Firefox), а бекед *JavaScript* для того щоб бути зінтерпретованим за межами браузера використовує середовища такі як  *Node.js*.
