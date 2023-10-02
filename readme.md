@@ -1,91 +1,80 @@
 Репозиторій містить відповіді на наступні питання: 
-
+Now modify the text you have generated in the following way. Starting from the question 12. You will wrap the question into square brakets, right after that you will put the question name in the parentesis, using - inatead of each space and using lowercase letter instead of uppercase letters, and using - insted of any special characters. Also putting number of the question + '-' before text and .md after.
+For example:
+instead this line: 53. What is the CSS box model?
+you should create: 53. [What is the CSS box model?](53-what-is-the-css-box-model.md]
+# 300-js-en
 ## Junior
-#### Загальні:
-1. [Які методи HTTP-запитів ви знаєте?](/Core/Junior/cj1-which-http-answer-codes-do-you-know.md)
-2. [Які версії HTTP-протоколу вам відомі?](/Core/Junior/cj2-which-http-protocol-versions-do-you-know.md)
-3. [Які знаєте коди відповіді(стану) HTTP?](/Core/Junior/cj3-which-http-answer-codes-do-you-know.md)
-4. [Що таке Cross-Origin Resource Sharing? Як усунути проблеми з CORS?](/Core/Junior/cj4-what-is-CORS.md)
-5. [Що таке cookie?](/Core/Junior/cj5-what-is-cookie.md)
-6. [Який максимальний розмір cookie?](/Core/Junior/cj6-what-is-max-cookie-weight.md)
-7. [Що означає директива use strict?](/Core/Junior/cj7-what-does-use-strict-mean.md)
-8. [Чим JS відрізняється під час роботи на front-end і back-end?](/Core/Junior/cj8-what-is-the-difference-between-fron-end-js-and-back-end-js.md)
-9. [Що таке статична і динамічна типізації?](/Core/Junior/cj9-what-is-static-and-dynamic-typization.md)
-10. [Як клієнт взаємодіє із сервером?](/Core/Junior/cj10-how-does-the-client-interact-with-the-server.md)
-11. [Що таке REST?](/Core/Junior/cj11-what-does-REST-mean.md)
-12. Поясніть поняття мутабельність / іммутабельність? Які типи є мутабельними й навпаки?
-13. Як шукати помилки в коді? Чи використовуєте дебагер?
-14. Яких відомих людей зі світу JS знаєте?
+#### General:
+1. [Які методи HTTP-запитів ви знаєте?](/junior/general/1-which-http-request-methods-do-you-know.md)
+2. [Які версії HTTP-протоколу вам відомі?](/junior/general/2-which-versions-of-the-http-protocol-are-you-familiar-with.md)
+3. [Які знаєте коди відповіді (стану) HTTP?](/junior/general/3-what-response-status-codes-of-http-do-you-know.md)
+4. [Що таке Cross-Origin Resource Sharing? Як усунути проблеми з CORS?](/junior/general/4-what-is-cross-origin-resource-sharing-cors-how-to-resolve-cors-issues.md)
+5. [Що таке cookie?](/junior/general/5-what-is-a-cookie.md)
+6. [Який максимальний розмір cookie?](/junior/general/6-what-is-the-maximum-size-of-a-cookie.md)
+7. [Що означає директива use strict?](/junior/general/7-what-does-the-use-strict-directive-mean.md)
+8. [Чим JS відрізняється під час роботи на front-end і back-end?](/junior/general/8-how-does-javascript-differ-when-working-on-the-front-end-and-back-end.md)
+9. [Що таке статична і динамічна типізації?](/junior/general/9-what-is-static-and-dynamic-typing.md)
+10. [Як клієнт взаємодіє із сервером?](/junior/general/10-how-does-the-client-interact-with-the-server.md)
+11. [Що таке REST?](/junior/general/11-what-is-rest.md)
+12. [Поясніть поняття мутабельність / іммутабельність? Які типи є мутабельними й навпаки?](/junior/general/12-explain-the-concepts-of-mutability-and-immutability-which-types-are-mutable-and-vice-versa.md)
+13. [Як шукати помилки в коді? Чи використовуєте дебагер?](/junior/general/13-how-do-you-search-for-errors-in-code-do-you-use-a-debugger.md)
+14. [Яких відомих людей зі світу JS знаєте?](/junior/general/14-who-are-some-famous-figures-in-the-world-of-javascript.md)
 
 #### JS Core
-15. Які існують типи даних у JS?
-16. Як перевірити, чи об’єкт є масивом?
-17. Як перевірити, чи число є скінченним?
-18. Як перевірити, що змінна рівна NaN?
-19. Чим відрізняється поведінка isNaN() та Number. isNaN()?
-20. Порівняйте ключові слова var, let, const. 
-21. Що таке область видимості?
-22. Що таке деструктуризація?
-23. Для чого призначені методи setTimeout і setInterval?
-24. Порівняйте підходи роботи з асинхронним кодом: сallbacks vs promises vs async/await. 
-25. Чи можна записувати нові властивості / функції в прототипи стандартних класів (Array, Object тощо)? Чому ні? У яких випадках це робити можна? Як убезпечити себе, якщо потрібно розширити прототип?
-26. Назвіть методи масивів, які пам’ятаєте, і скажіть, для чого вони потрібні. 
-27. Які перебираючі методи масиву знаєте? У чому їхня відмінність?
-28. Як працюють оператори присвоєння / порівняння / рядкові / арифметичні / бітові тощо?
-29. Опишіть призначення і принципи роботи з колекціями Map і Set. 
-30. Що означає глибока (deep) та поверхнева (shallow) копія об’єкта? Як зробити кожну з них?
+15. [Які існують типи даних у JS?](/junior/js-core/15-what-are-the-data-types-in-javascript.md)
+16. [Як перевірити, чи об’єкт є масивом?](/junior/js-core/16-how-can-you-check-if-an-object-is-an-array.md)
+17. [Як перевірити, чи число є скінченним?](/junior/js-core/17-how-can-you-check-if-a-number-is-finite.md)
+18. [Як перевірити, що змінна рівна NaN?](/junior/js-core/18-how-can-you-check-if-a-variable-is-equal-to-nan.md)
+19. [Чим відрізняється поведінка isNaN() та Number.isNaN()?](/junior/js-core/19-what-is-the-difference-between-isnan-and-numberisnan-behavior.md)
+20. [Порівняйте ключові слова var, let, const.](/junior/js-core/20-compare-the-keywords-var-let-and-const.md)
+21. [Що таке область видимості?](/junior/js-core/21-what-is-scope.md)
+22. [Що таке деструктуризація?](/junior/js-core/22-what-is-destructuring.md)
+23. [Для чого призначені методи setTimeout і setInterval?](/junior/js-core/23-what-are-the-purposes-of-settimeout-and-setinterval-methods.md)
+24. [Порівняйте підходи роботи з асинхронним кодом: сallbacks vs promises vs async/await.](/junior/js-core/24-compare-approaches-for-working-with-asynchronous-code-callbacks-vs-promises-vs-async-await.md)
+25. [Чи можна записувати нові властивості / функції в прототипи стандартних класів (Array, Object тощо)? Чому ні? У яких випадках це робити можна? Як убезпечити себе, якщо потрібно розширити прототип?](/junior/js-core/25-can-you-add-new-properties-functions-to-the-prototypes-of-standard-classes-array-object-etc-why-or-why-not-in-what-cases-can-you-do-it-and-how-can-you-safeguard-yourself-if-you-need-to-extend-a-prototype.md)
+26. [Назвіть методи масивів, які пам’ятаєте, і скажіть, для чого вони потрібні.](/junior/js-core/26-name-array-methods-you-know-and-explain-their-purposes.md)
+27. [Які перебираючі методи масиву знаєте? У чому їхня відмінність?](/junior/js-core/27-what-array-iteration-methods-do-you-know-and-what-distinguishes-them.md)
+28. [Як працюють оператори присвоєння / порівняння / рядкові / арифметичні / бітові тощо?](/junior/js-core/28-how-do-assignment-comparison-string-arithmetic-bitwise-operators-work-and-so-on.md)
+29. [Опишіть призначення і принципи роботи з колекціями Map і Set.](/junior/js-core/29-describe-the-purposes-and-principles-of-working-with-collections-like-map-and-set.md)
+30. [Що означає глибока (deep) та поверхнева (shallow) копія об’єкта? Як зробити кожну з них?](/junior/js-core/30-what-is-deep-and-shallow-object-copying-how-do-you-achieve-each-of-them.md)
 
-#### Функції:
-31. Яка різниця між декларацією функції (function declaration) та функціональним виразом (function expression)?
-32. Що таке анонімна функція?
-33. Розкажіть про стрілкові функції (arrow function).  В чому полягають відмінності стрілкових функцій від звичайних?
-34. Що таке і для чого використовують IIFE (Immediately Invoked Function Expression)?
-35. Що таке hoisting, як він працює для змінних і функцій?
-36. Що таке замикання (closure) і які сценарії його використання?
-37. Як ви розумієте замикання? Що буде виведено в консолі в цьому випадку?
-```
-var f = function() {
-  console. log(1);
-}
-
-var execute = function(f) {
-  setTimeout(f, 1000);
-}
-
-execute(f); // что выведет в консоль и почему
-
-f = function() {
-  console. log(2);
-}
-```
-38. Що таке рекурсія?
-39. Що означає ключове слово this?
-40. Що таке втрата контексту, коли відбувається і як їй запобігти?
-41. Методи функцій bind / call / apply — навіщо і в чому різниця?
+#### Functions:
+31. [What is the difference between a function declaration and a function expression?](/junior/functions/31-what-is-the-difference-between-a-function-declaration-and-a-function-expression.md)
+32. [What is an anonymous function?](/junior/functions/32-what-is-an-anonymous-function.md)
+33. [Tell me about arrow functions. What are the differences between arrow functions and regular functions?](/junior/functions/33-tell-me-about-arrow-functions-what-are-the-differences-between-arrow-functions-and-regular-functions.md)
+34. [What are IIFE (Immediately Invoked Function Expressions), and why are they used?](/junior/functions/34-what-are-iife-immediately-invoked-function-expressions-and-why-are-they-used.md)
+35. [What is hoisting, and how does it work for variables and functions?](/junior/functions/35-what-is-hoisting-and-how-does-it-work-for-variables-and-functions.md)
+36. [What is a closure, and what are some scenarios for using it?](/junior/functions/36-what-is-a-closure-and-what-are-some-scenarios-for-using-it.md)
+37. [How do you understand closures? What will be logged to the console in this case?](/junior/functions/37-how-do-you-understand-closures-what-will-be-logged-to-the-console-in-this-case.md)
+38. [What is recursion?](/junior/functions/38-what-is-recursion.md)
+39. [What does the keyword 'this' mean?](/junior/functions/39-what-does-the-keyword-this-mean.md)
+40. [What is the context loss, when does it occur, and how can you prevent it?](/junior/functions/40-what-is-the-context-loss-when-does-it-occur-and-how-can-you-prevent-it.md)
+41. [What are the purposes and differences between the bind/call/apply methods?](/junior/functions/41-what-are-the-purposes-and-differences-between-the-bind-call-apply-methods.md)
 
 #### Front-end
-42. Що таке DOM?
-43. Порівняйте атрибути підключення скрипту async і defer в HTML-документі. 
-44. Яка різниця між властивостями HTML-елементів innerHTML і innerText?
-45. Опишіть процес спливання (bubbling) подій у DOM. 
-46. Як зупинити спливання (bubbling) події?
-47. Як зупинити дефолтну обробку події?
-48. Чому дорівнює this в обробнику подій (event handler)?
-49. Що таке LocalStorage і SessionStorage? Який максимальний розмір LocalStorage?
-50. Як отримати висоту блоку? Його положення щодо меж документа?
-51. Що таке webpack?
-52. Чим відрізняється dev-збірка від prod?
+42. [What is the DOM (Document Object Model)?](/junior/front-end/42-what-is-the-dom-document-object-model.md)
+43. [Compare the attributes for script inclusion async and defer in an HTML document.](/junior/front-end/43-compare-the-attributes-for-script-inclusion-async-and-defer-in-an-html-document.md)
+44. [What is the difference between the innerHTML and innerText properties of HTML elements?](/junior/front-end/44-what-is-the-difference-between-the-innerhtml-and-innertext-properties-of-html-elements.md)
+45. [Describe the event bubbling process in the DOM.](/junior/front-end/45-describe-the-event-bubbling-process-in-the-dom.md)
+46. [How do you stop event bubbling?](/junior/front-end/46-how-do-you-stop-event-bubbling.md)
+47. [How do you prevent the default event handling?](/junior/front-end/47-how-do-you-prevent-the-default-event-handling.md)
+48. [What does 'this' refer to in an event handler?](/junior/front-end/48-what-does-this-refer-to-in-an-event-handler.md)
+49. [What are LocalStorage and SessionStorage? What is the maximum size of LocalStorage?](/junior/front-end/49-what-are-localstorage-and-sessionstorage-what-is-the-maximum-size-of-localstorage.md)
+50. [How do you get the height of an element? Its position relative to the document boundaries?](/junior/front-end/50-how-do-you-get-the-height-of-an-element-its-position-relative-to-the-document-boundaries.md)
+51. [What is Webpack?](/junior/front-end/51-what-is-webpack.md)
+52. [How does a development build differ from a production build?](/junior/front-end/52-how-does-a-development-build-differ-from-a-production-build.md)
 
-#### Верстка
-53. Що таке блокова модель CSS?
-54. Які способи центрування блокового контенту по горизонталі та вертикалі знаєте?
-55. Які підходи у верстці вам відомі (float, flex, grid, etc)?
-56. Як зробити додаток responsive?
-57. Які є принципи семантичної верстки?
-58. Навіщо потрібні префікси для деяких CSS-властивостей (-webkit-, -moz- тощо)?
-59. Як спростити написання кросбраузерних стилів?
-60. Практичне завдання: прокоментувати та виправити приклад поганого CSS або HTML. 
-61. Що таке CSS-препроцесори? З якими працювали? Що нового вони приносять у стандартний CSS?
+#### Markup
+53. [What is the CSS box model?](/junior/markup/53-what-is-the-css-box-model.md)
+54. [What methods do you know for centering block content horizontally and vertically?](/junior/markup/54-what-methods-do-you-know-for-centering-block-content-horizontally-and-vertically.md)
+55. [What approaches to layout are you familiar with (float, flex, grid, etc.)?](/junior/markup/55-what-approaches-to-layout-are-you-familiar-with-float-flex-grid-etc.md)
+56. [How do you make a web application responsive?](/junior/markup/56-how-do-you-make-a-web-application-responsive.md)
+57. [What are the principles of semantic markup?](/junior/markup/57-what-are-the-principles-of-semantic-markup.md)
+58. [Why are prefixes like -webkit-, -moz-, etc., needed for some CSS properties?](/junior/markup/58-why-are-prefixes-like-webkit-moz-etc-needed-for-some-css-properties.md)
+59. [How can you simplify writing cross-browser styles?](/junior/markup/59-how-can-you-simplify-writing-cross-browser-styles.md)
+60. [Practical task: comment on and correct an example of bad CSS or HTML.](/junior/markup/60-practical-task-comment-on-and-correct-an-example-of-bad-css-or-html.md)
+61. [What are CSS preprocessors? Which ones have you worked with, and what do they bring to standard CSS?](/junior/markup/61-what-are-css-preprocessors-which-ones-have-you-worked-with-and-what-do-they-bring-to-standard-css.md)
 
 #### Angular
 62. Перерахуйте основні компоненти фреймворку (модуль, роут, директива тощо). 
@@ -557,3 +546,4 @@ HTMLConstruct. div. span('baz')
 45. Як можна було б зробити toggle-компонент, як в iPhone, без використання JS?
 
 Source(https://dou. ua/lenta/articles/interview-questions-javascript-developer/)
+
