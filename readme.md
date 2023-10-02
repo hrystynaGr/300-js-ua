@@ -2,17 +2,17 @@
 
 ## Junior
 #### Загальні:
-1. [Які методи HTTP-запитів ви знаєте?] (cj1-which-http-answer-codes-do-you-know.md)
-2. [Які версії HTTP-протоколу вам відомі?] (cj2-which-http-protocol-versions-do-you-know.md)
-3. [Які знаєте коди відповіді (стану) HTTP?] (cj3-which-http-answer-codes-do-you-know.md)
-4. [Що таке Cross-Origin Resource Sharing?] Як усунути проблеми з CORS? (cj4-what-is-CORS.md)
-5. [Що таке cookie?] (cj5-what-is-cookie.md)
-6. [Який максимальний розмір cookie?] (cj6-what-is-max-cookie-weight.md)
-7. [Що означає директива use strict?] (cj7-what-does-use-strict-mean.md)
-8. [Чим JS відрізняється під час роботи на front-end і back-end?] (cj8-what-is-the-difference-between-fron-end-js-and-back-end-js.md)
-9. [Що таке статична і динамічна типізації?] (cj9-what-is-static-and-dynamic-typization.md)
-10. [Як клієнт взаємодіє із сервером?] (cj10-how-does-the-client-interact-with-the-server.md)
-11. [Що таке REST?] (cj11-what-does-REST-mean.md)
+1. [Які методи HTTP-запитів ви знаєте?](cj1-which-http-answer-codes-do-you-know.md)
+2. [Які версії HTTP-протоколу вам відомі?](cj2-which-http-protocol-versions-do-you-know.md)
+3. [Які знаєте коди відповіді(стану) HTTP?](cj3-which-http-answer-codes-do-you-know.md)
+4. [Що таке Cross-Origin Resource Sharing? Як усунути проблеми з CORS?](cj4-what-is-CORS.md)
+5. [Що таке cookie?](cj5-what-is-cookie.md)
+6. [Який максимальний розмір cookie?](cj6-what-is-max-cookie-weight.md)
+7. [Що означає директива use strict?](cj7-what-does-use-strict-mean.md)
+8. [Чим JS відрізняється під час роботи на front-end і back-end?](cj8-what-is-the-difference-between-fron-end-js-and-back-end-js.md)
+9. [Що таке статична і динамічна типізації?](cj9-what-is-static-and-dynamic-typization.md)
+10. [Як клієнт взаємодіє із сервером?](cj10-how-does-the-client-interact-with-the-server.md)
+11. [Що таке REST?](cj11-what-does-REST-mean.md)
 12. Поясніть поняття мутабельність / іммутабельність? Які типи є мутабельними й навпаки?
 13. Як шукати помилки в коді? Чи використовуєте дебагер?
 14. Яких відомих людей зі світу JS знаєте?
