@@ -1,5 +1,5 @@
 Репозиторій містить відповіді на наступні питання: 
-# 300-js-en
+
 ## Junior
 #### General:
 1. [Які методи HTTP-запитів ви знаєте?](/junior/general/1-which-http-request-methods-do-you-know.md)
